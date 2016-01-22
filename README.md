@@ -1,2 +1,2 @@
 # harshsinh
-#here i plan to create a webpage about myself, a place that's my reflection.
+my first attempt at self-tutoring myself web development and also my first page.
