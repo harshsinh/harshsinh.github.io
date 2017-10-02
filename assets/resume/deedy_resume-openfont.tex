@@ -1,0 +1,259 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Harsh}{Sinha}{ \urlstyle{same}\url{http://harshsinh.github.io} \\
+\href{mailto:harshsin@iitk.ac.in}{harshsin@iitk.ac.in} | +91 9198263225
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{IIT, Kanpur}
+\descript{BTech in Aerospace Engineering}
+\location{Expected July 2019 | IIT, Kanpur}
+\sectionsep
+
+\descript{Major in Electrical Engineering}
+\location{Expected July 2019| IIT, Kanpur}
+\location{ Cum. GPA: 7.1 / 10.0 \\
+Major GPA: NA}
+\sectionsep
+
+\subsection{GRSS Vidya Mandir}
+%\descript{All India Senior School Certificate Examination}
+\descript{Class XII | CBSE}
+\location{Grad. May 2013|  Bhagalpur, India}
+\location{89.6\%}
+\sectionsep
+
+\subsection{GRSS Vidya Mandir}
+%\descript{All India Secondary School Examination}
+\descript{Class X | CBSE}
+\location{Grad. May 2013|  Bhagalpur, India}
+\location{10.0 / 10.0}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/harshsinh}{\custombold{harshsinh}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/harsh-sinha-340a18122/}{\custombold{harsh-sinha}} \\
+%YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
+%Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
+%Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+Probabilistic Mobile Robotics \\
+Visual Recognition \\
+Data Structures and Algorithms \\
+Modern Control Systems \\
+Digital Control Systems \\
+Finite Element Methods \\
+Aircraft Design
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+%\location{Over 5000 lines:}
+%Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
+%OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+%\location{Over 1000 lines:}
+%C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+%\location{Familiar:}
+%AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\location{Langueages : }
+C++ \textbullet{} Python \textbullet{} Matlab \textbullet{} Shell \textbullet{} \LaTeX\\
+\location{Frameworks and Libraries: }
+ROS \textbullet{} Gazebo \textbullet{} OpenCV \textbullet{} Pillow \textbullet{} Caffe \textbullet{} PyTorch \textbullet{} Tensor Flow\\
+\subsection{Software}
+gEDA--pcb \textbullet{} Altium \textbullet{} Eagle \textbullet{} Git \textbullet{} Blender
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+
+\runsubsection{Quazar}
+\descript{| Research Intern}
+\location{May 2016 –  July 2016 | Delhi, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Designed a the oscillation control electronics, harware PID and Phase Locked Loop system for an Atomic Force Microscope
+\item Designed PCBs for the electronics.
+\item Made the preliminary test setup and the software drivers.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Intelligent Ground Vehicle}
+\descript{| Team Leader}
+\location{Expected Nov 2016 – April 2018 | IIT Kanpur, India | Under \textbf{\href{http://home.iitk.ac.in/~gpandey}{Prof. Gaurav Pandey}} and \textbf{\href{http://www.iitk.ac.in/aero/mangal/}{Prof. Mangal Kothari}}}
+\begin{tightemize}
+\item Developed a system for autonomous waypoint navigation in uncharted teritories and driving in lanes.\item Worked on Simultaneous Localization And Mapping (SLAM), on Rapidly - exploring Random Tree (RRT) for Motion Planning on ground vehicles, and on High Level Control Systems for the robot.\item  Implemented Extended Kalman Filter (EKF) for obtaining correct odometry information from sensors and a particle filter for SLAM.\item Lead the team for the project, was also responsible for the code base of the project.\end{tightemize}
+\sectionsep
+
+\runsubsection{Image based relocaliztion of Robot}
+\descript{| Research Project}
+\location{May 2017 - July 2017 | IIT Kanpur, India | Under Prof. Gaurav Pandey}
+\begin{tightemize}
+\item Developed a system for relocalization of robot.
+\end{tightemize}
+
+\runsubsection{Multiagent Mapping}
+\descript{| Summer Project}
+\location{May 2017 - July 2017 | IIT Kanpur, India | Under Prof. Indranil Saha}
+\begin{tightemize}
+\item Worked on making large scale segmented maps using multiple quadrotors.
+\end{tightemize}
+
+\runsubsection{Robocon'16}
+\descript{| Senior Member}
+\location{Sep 2015 – May 2016 | IIT Kanpur, India | Under Prof. Bhaskar Das Gupta}
+\begin{tightemize}
+\item Developed the electronics for a pair of semi-autonomous robots capable of Line following, Wall following and Pole Climbing. \item  Designed and implemented a control systems for Wall following and Propeller speed control. \item Implemented a modified Kalman Filter for fusing Encoder and IMU data to get Odometry information for a ground robot.\end{tightemize}
+\sectionsep
+
+\runsubsection{Autonomous Underwater Vehicle}
+\descript{| Electronics Head}
+\location{Dec 2014 - Aug 2015 | IIT Kanpur, India | Under Prof. K S Venkatesh}
+\begin{tightemize}
+\item Worked on making of a waterproof underwater vehicle capable of underwater navigation.\item Worked on the motherboard and the drive system PCB design.\item Performed partial localiztion of the underwater vehicle.\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Research}
+%\runsubsection{Cornell Robot Learning Lab}
+%\descript{| Head Undergrad Research}
+%\location{Jan 2014 – Present | Ithaca, NY}
+%Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+%\sectionsep
+%
+%\runsubsection{Cornell Phonetics Lab}
+%\descript{| Head Undergraduate Researcher}
+%\location{Mar 2012 – May 2013 | Ithaca, NY}
+%Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Awards} 
+%\begin{tabular}{rll}
+%2014	     & top 52/2500  & KPCB Engineering Fellow\\
+%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+%2013	     & National  & Jump Trading Challenge Finalist\\
+%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%\end{tabular}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications} 
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} 
+\end{document}
