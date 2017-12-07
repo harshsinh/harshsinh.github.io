@@ -1,16 +1,13 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Harsh</strong> Sinha
+description: Senior Undergrad | <a href="www.iitk.ac.in">Indian Institute of Technology, Kanpur</a> | <a href="www.iitk.ac.in/ae">Aerospace Engineering</a> | <a href="www.iitk.ac.in/ee">Electrical Engineering</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
 news: true
 social: true
