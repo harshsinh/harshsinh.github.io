@@ -6,15 +6,18 @@ description: Senior Undergrad | <a href="www.iitk.ac.in">Indian Institute of Tec
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address:
+  image: me.jpg
+  address: E-212 Hall 9, IIT Kanpur, Kanpur, India
 
-news: true
+news: false
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a senior year Undergraduate student in Department of Aerospace Engineering at [IIT Kanpur](www.iitk.ac.in).
+I am pursuing a second major in Electrical Engineering Department at the same time.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+So far, my projects and my research interests have gravitated towards Robotics and Computer Vision.
+While working on a project relating Computer Vision and Robotics, I was introduced to the power of deep learning techniques.
+After this, and taking a course on Visual Recognition, I developed an interest in application of machine learning in robotics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Apart for these, I love taking part in robotics competitions, I was a part of IIT Kanpur's teams for [Autonomous Underwater Vehicle](auviitk.com), [Robocon](http://students.iitk.ac.in/robocon/) and Intelligent Ground Vehicle.
