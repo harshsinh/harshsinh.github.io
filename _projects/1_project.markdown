@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
+title: IGVC
+description: Intelligent Ground Vehicle Challenge
 img: /assets/img/12.jpg
 ---
 
