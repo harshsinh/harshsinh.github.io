@@ -1,8 +1,8 @@
 ---
 layout: page
-title: IGVC
-description: Intelligent Ground Vehicle Challenge
-img: /assets/img/igvc.jpg
+title: Robocon'16
+description: National Robotics Competition
+img: /assets/img/projects/robocon/rconlogo.jpg
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

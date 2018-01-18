@@ -17,7 +17,7 @@ I am a senior year Undergraduate student in Department of Aerospace Engineering 
 I am pursuing a second major in Electrical Engineering Department at the same time.
 
 So far, my projects and my research interests have gravitated towards Robotics and Computer Vision.
-While working on a project relating Computer Vision and Robotics, I was introduced to the power of deep learning techniques.
+While working on a project relating Computer Vision and Robotics, I was introduced to deep learning techniques.
 After this, and taking a course on Visual Recognition, I developed an interest in application of machine learning in robotics.
 
 Apart for these, I love taking part in robotics competitions, I was a part of IIT Kanpur's teams for [Autonomous Underwater Vehicle](auviitk.com), [Robocon](http://students.iitk.ac.in/robocon/) and Intelligent Ground Vehicle.
