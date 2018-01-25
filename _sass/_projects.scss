@@ -12,16 +12,19 @@
         width: 100%;
 
         img {
-            height: auto;
+            height: 100%;
             position: relative;
-                left: -25%;
-                top: -5%;
-            width: 500px;
+            width: 100%;
+            //height: auto;
+            //position: relative;
+            //    left: -25%;
+            //    top: -5%;
+            //width: 500px;
         }
 
         a {
             float: left;
-            height: 230px;
+            height: 100%;
             position: relative;
             width: 100%;
 
