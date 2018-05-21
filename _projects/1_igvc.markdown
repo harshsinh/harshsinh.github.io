@@ -12,7 +12,7 @@ img: /assets/img/projects/igvc/igvc.jpg
     Daksh our robot, a NexRobotics' 0xDelta
 </div>
 
-You can find the report for the project at : [Report](add_google_drive_link)
+You can find the report for the project at : [Report](/assets/docs/igvc17.pdf)
 
 [Intelligent Ground Vehicle Challenge](http://igvc.org) is a competition organised by [AUVSI](auvsi.org) which is aimed at developing prototype self driving cars. The competition pits teams from around the world against each other on arenas like the one shown below. Teams are supposed to develop different algorithms to autonomously traverse the arena using any method possible.
 
