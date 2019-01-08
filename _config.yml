@@ -11,7 +11,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -19,8 +19,8 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 github_username: harshsinh # put your github username
 twitter_username: # put your twitter username
-linkedin_username: harsh-sinha-340a18122# put your linkedin username
-scholar_authorid: # put your google scholar author id
+linkedin_username: harsh-sinha-340a18122 # put your linkedin username
+scholar_authorid: 15AaX5UAAAAJ # put your google scholar author id
 contact_note: >
     You can also email me at harshsin@iitk.ac.in
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
@@ -28,8 +28,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: #name your blog
+blog_description: #tag line for the blog?
 
 # Pagination
 paginate: 4
@@ -42,7 +42,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 
 # Optional features
 show_social_icons:  true
