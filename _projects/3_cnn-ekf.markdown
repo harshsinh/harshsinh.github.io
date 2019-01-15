@@ -2,7 +2,7 @@
 layout: page
 title: CNN-EKF
 description: CNN Sensor for Mobile Robotics
-img: /assets/img/projects/cnn-ekf/NEX_OUT.png
+img: /assets/img/projects/cnn-ekf/NEX_OUT-min.png
 ---
 
 <div class="img_row">
