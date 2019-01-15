@@ -49,7 +49,8 @@ permalink: /projects/
 
 ### other relevant projects
 
-* CNN-EKF: Relocalizing robots with cheap sensors. \| [report/paper]() \| [Code]()
+* CNN-EKF: Relocalizing robots with cheap sensors. \| [report/paper]() \| [code]()
+* Warehouse Inventory Management with Quadrotors \| [presentation](/assets/docs/wic.pdf) \| [code](https://github.com/harshsinh/warehouse-quad)
 * Human Tracking and Following Quadrotor \| [report](/assets/docs/ae640a-report.pdf) \| [code](https://github.com/harshsinh/follow-quad)
 * Single Image Super Resolution via Sparse Representation \| [report](/assets/docs/ee698k-report.pdf)
 * Robocon'16: Energy Efficient Robotics \| [web-report](http://students.iitk.ac.in/robocon/docs/doku.php)

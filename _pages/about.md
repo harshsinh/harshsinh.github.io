@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Harsh</strong> Sinha
-description: Senior Undergrad | <a href="www.iitk.ac.in">Indian Institute of Technology, Kanpur</a> | <a href="www.iitk.ac.in/ae">Aerospace Engineering</a> | <a href="www.iitk.ac.in/ee">Electrical Engineering</a>
+description: Senior Undergrad | Indian Institute of Technology, Kanpur | Aerospace Engineering | Electrical Engineering
 
 profile:
   align: right
