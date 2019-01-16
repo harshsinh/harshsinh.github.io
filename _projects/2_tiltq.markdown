@@ -15,7 +15,7 @@ img: /assets/img/projects/tiltq/tiltq.png
 *Supervisors:* [Prof. Mangal Kothari](https://www.iitk.ac.in/aero/mangal/), [Prof. Soumya Ranjan Sahoo](http://home.iitk.ac.in/~srsahoo/)
 
 <p align="center">
-    <!-- <a class="button" href="/assets/docs/DesignReport.pdf" target="_blank">Report</a> -->
+    <a class="button" href="https://drive.google.com/open?id=1VvjCoW9224C71I4miF4_N2nJahOjCTLI" target="_blank">Report</a>
     <!-- <a class="button" href="https://igvc-iitk.github.io/" target="_blank">Website</a> -->
     <!-- <a class="button" href="https://igvc-iitk.github.io/" target="_blank">Website</a> -->
     <a class="button" href="https://www.youtube.com/watch?v=Czgc6OZPnDw" target="_blank">Video</a>
