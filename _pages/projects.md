@@ -53,5 +53,5 @@ permalink: /projects/
 * Warehouse Inventory Management with Quadrotors \| [presentation](/assets/docs/wic.pdf) \| [code](https://github.com/harshsinh/warehouse-quad)
 * Human Tracking and Following Quadrotor \| [report](/assets/docs/ae640a-report.pdf) \| [code](https://github.com/harshsinh/follow-quad)
 * Single Image Super Resolution via Sparse Representation \| [report](/assets/docs/ee698k-report.pdf)
-* Robocon'16: Energy Efficient Robotics \| [web-report](http://students.iitk.ac.in/robocon/docs/doku.php)
+* Robocon'16: Energy Efficient Robotics \| [web-report](http://students.iitk.ac.in/robocon/docs/doku.php) \| [video](https://www.youtube.com/watch?v=P7Sl_VPG4Xw&t=1s)
 * Autonomous Underwater Vehicle \| [website](www.auviitk.com)
