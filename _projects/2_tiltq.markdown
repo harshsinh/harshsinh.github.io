@@ -15,7 +15,7 @@ img: /assets/img/projects/tiltq/tiltq.png
 *Supervisors:* [Prof. Mangal Kothari](https://www.iitk.ac.in/aero/mangal/), [Prof. Soumya Ranjan Sahoo](http://home.iitk.ac.in/~srsahoo/)
 
 <p align="center">
-    <a class="button" href="https://drive.google.com/open?id=1VvjCoW9224C71I4miF4_N2nJahOjCTLI" target="_blank">Report</a>
+    <a class="button" href="https://authors.elsevier.com/c/1Z9Ul3RugWTBfl" target="_blank">Report</a>
     <!-- <a class="button" href="https://igvc-iitk.github.io/" target="_blank">Website</a> -->
     <!-- <a class="button" href="https://igvc-iitk.github.io/" target="_blank">Website</a> -->
     <a class="button" href="https://www.youtube.com/watch?v=Czgc6OZPnDw" target="_blank">Video</a>
@@ -23,7 +23,7 @@ img: /assets/img/projects/tiltq/tiltq.png
 
 The task which we took on here was the fully autonomous landing of a quadrotor on a moving vehicle when the only input used for obtaining the position of the vehicle was visual and no communication existed between the vehicle and the quadrotor.
 
-We have submitted the paper to [Control and Engineering Practices](https://www.journals.elsevier.com/control-engineering-practice), an Elsevier Journal.
+This paper was accepted in [Control and Engineering Practices](https://www.journals.elsevier.com/control-engineering-practice), an Elsevier Journal.
 
 The quadrotor platform we used is an inhouse developed fully actuated platform named "ASTAIR".
 <div class="img_row">
