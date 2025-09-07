@@ -4,7 +4,7 @@ A minimal, clean academic personal website built with pure HTML, CSS, and JavaSc
 
 ## Overview
 
-This website follows a simple, content-focused design philosophy inspired by sites like gwern.net and voiceaiandvoiceagents.com. It emphasizes typography, readability, and minimal complexity.
+This website follows a simple, content-focused design philosophy. It emphasizes typography, readability, and minimal complexity.
 
 ## Features
 
