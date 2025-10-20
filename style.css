@@ -86,11 +86,15 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--accent-color);
+  color: #8B0000;
 }
 
 .nav-link.active {
-  color: var(--accent-color);
+  color: var(--text-color);
+}
+
+.nav-link.active:hover {
+  color: #8B0000;
 }
 
 .nav-link.active::after {
@@ -100,7 +104,12 @@ body {
   left: 0;
   right: 0;
   height: 2px;
-  background-color: var(--accent-color);
+  background-color: var(--text-color);
+  transition: background-color 0.3s ease;
+}
+
+.nav-link.active:hover::after {
+  background-color: #8B0000;
 }
 
 /* Hero Section */
@@ -117,7 +126,7 @@ body {
 
 .hero .title {
   font-size: 1.3rem;
-  color: var(--accent-color);
+  color: var(--text-color);
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
@@ -252,13 +261,13 @@ section p {
 
 /* Links */
 a {
-  color: var(--accent-color);
-  text-decoration: none;
+  color: var(--text-color);
+  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: #8B0000;
   text-decoration: underline;
 }
 
